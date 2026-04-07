@@ -424,3 +424,69 @@ footer ul li a {
         gap: 1rem;
     }
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-div p {
+  padding-bottom: 2rem;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    font-size: 1rem;
+    font-weight: 300;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    background: transparent;
+}
+
+.contact form textarea {
+    border-radius: 1.5rem;
+    resize: vertical;
+    min-height: 150px;
+}
+
+.contact form textarea::-webkit-scrollbar {
+    display: none;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #0080ff;
+}
+
+.contact form button {
+    align-self: center;
+    padding: 0.8rem 3rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(to right, #1a1a5e, #0080ff);
+}
+
+.contact form button:hover {
+    transform: scale(1.03);
+    background: linear-gradient(to right, #0080ff, #1a1a5e);
+}
