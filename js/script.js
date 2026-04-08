@@ -15,7 +15,7 @@ visitButton.onclick = () => {
 
 linkedinLogo.onclick = () => {
   window.open(
-    "https://www.linkedin.com/in/braiden-hilton-384992315/",
+    "https://www.linkedin.com/in/braidenjh/",
     "_blank",
     "noopener,noreferrer",
   );
