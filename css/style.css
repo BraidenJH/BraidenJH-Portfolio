@@ -484,6 +484,7 @@ footer ul li a {
   border-radius: 1.5rem;
   resize: vertical;
   min-height: 150px;
+  resize: none;
 }
 
 .contact form textarea::-webkit-scrollbar {
