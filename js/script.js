@@ -26,9 +26,5 @@ githubLogo.onclick = () => {
 };
 
 contactButton.onclick = () => {
-  window.open("https://github.com/BraidenJH", "_blank", "noopener,noreferrer");
-};
-
-contactButton.onclick = () => {
   document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 };
