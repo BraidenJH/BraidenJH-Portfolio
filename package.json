@@ -1,0 +1,23 @@
+{
+  "name": "braidenjh-portfolio",
+  "version": "1.0.0",
+  "description": "This is my personal website to showcase my apps, games, and web projects. Built with **HTML, CSS and a little bit of JavaScript.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraidenJH/BraidenJH-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraidenJH/BraidenJH-Portfolio/issues"
+  },
+  "homepage": "https://github.com/BraidenJH/BraidenJH-Portfolio#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
