@@ -3,6 +3,7 @@ const navLinks = document.querySelector(".nav-links");
 const visitButton = document.querySelector(".visit-button");
 const linkedinLogo = document.querySelector("#linkedinLogo");
 const githubLogo = document.querySelector("#githubLogo");
+const contactButton = document.querySelector("#contact-button");
 
 menuIcon.onclick = () => {
   navLinks.classList.toggle("active");
@@ -22,4 +23,12 @@ linkedinLogo.onclick = () => {
 
 githubLogo.onclick = () => {
   window.open("https://github.com/BraidenJH", "_blank", "noopener,noreferrer");
+};
+
+contactButton.onclick = () => {
+  window.open("https://github.com/BraidenJH", "_blank", "noopener,noreferrer");
+};
+
+contactButton.onclick = () => {
+  document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
 };
