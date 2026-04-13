@@ -4,9 +4,27 @@ const visitButton = document.querySelector(".visit-button");
 const linkedinLogo = document.querySelector("#linkedinLogo");
 const githubLogo = document.querySelector("#githubLogo");
 const contactButton = document.querySelector("#contact-button");
+const ldCoffeeAndCrust = document.querySelector("#ldcoffeeandcrust");
+const githubCoffeeAndCrust = document.querySelector("#githubcoffeeandcrust");
 
 menuIcon.onclick = () => {
   navLinks.classList.toggle("active");
+};
+
+ldCoffeeAndCrust.onclick = () => {
+  window.open(
+    "https://coffeeandcrust.pages.dev",
+    "_blank",
+    "noopener,noreferrer",
+  );
+};
+
+githubCoffeeAndCrust.onclick = () => {
+  window.open(
+    "https://github.com/BraidenJH/Coffee-Crust",
+    "_blank",
+    "noopener,noreferrer",
+  );
 };
 
 visitButton.onclick = () => {
